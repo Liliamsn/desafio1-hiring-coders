@@ -1,0 +1,51 @@
+.rodape {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+    background-color: #4B3935;
+}
+
+.rodape__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape__info-desc {
+    text-align: justify;
+}
+
+.desc__novidades {
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #e29910;
+    text-transform: uppercase;
+}
+
+.rodape__info form {
+    display: flex;
+}
+
+.form__input {
+    width: 300px;
+    height: 30px;
+}
+
+.form__botao {
+    background-color: #e29910;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.lista__item {
+    margin-left: 1rem;
+    font-size: 30px;
+}
+

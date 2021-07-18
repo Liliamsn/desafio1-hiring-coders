@@ -1,0 +1,60 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#885D4A, #4B3935);
+}
+
+.container__elementos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 400px;
+    max-height: 600px;
+}
+
+.card__desconto {
+    border: 1px solid #000;
+    width: 30px;
+    background-color: #000;
+    color: #e29910;
+    position: absolute;
+    top: 250px;
+}
+
+.card__img {
+    margin-top: 2rem;
+    margin-left: 2.9rem;
+}
+
+.card__linha {
+    width: 350px;
+    border: 1px solid;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.card__desc {
+    text-align: center;
+    color: #e29910;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+.card__antigo {
+    text-align: center;
+    color: #e29910;
+    text-decoration: line-through;
+}
+
+.card__atual {
+    text-align: center;
+    color: #e29910;
+    padding: 2rem;
+    font-weight: bold;
+}

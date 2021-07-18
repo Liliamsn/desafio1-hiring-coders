@@ -1,0 +1,55 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(#C9C6CF, #885D4A);
+}
+
+.cabecalho__oferta {
+    margin-left: 6rem;
+    text-align: center;
+    width: 30%;
+}
+
+.cabecalho__oferta-textop {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 0 #e29910;
+}
+
+.cabecalho__oferta-textos {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.cabecalho__oferta-textot {
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 0 #e29910;
+}
+
+.cabecalho__promo {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    transform: translate(-50%);
+    
+}
+
+@keyframes neon {
+    from {
+        filter: drop drop-shadow(0 0 0 #e29910);
+    }
+    to {
+        filter: drop-shadow(0 0 20px #e29910);
+    }
+}
+
+.cabecalho__promo {
+    animation: neon 2s alternate infinite ease;
+}
