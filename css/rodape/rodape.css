@@ -1,17 +1,10 @@
 .rodape {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    box-sizing: border-box;
     background-color: #4B3935;
 }
 
-.rodape__info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.rodape__info-desc {
+.rodape__info desc {
     text-align: justify;
 }
 
@@ -49,3 +42,31 @@
     font-size: 30px;
 }
 
+@media screen and (max-width: 648px) {
+    .rodape__info {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .desc__novidades {
+        text-align: center;
+        padding-bottom: 1.2rem;
+    }
+
+    .form {
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    .lista {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .rodape__info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

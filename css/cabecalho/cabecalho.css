@@ -2,40 +2,39 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background: linear-gradient(#C9C6CF, #885D4A);
 }
 
 .cabecalho__oferta {
-    margin-left: 6rem;
+    margin-left: 10rem;
+    font-size: 20px;
     text-align: center;
-    width: 30%;
 }
 
 .cabecalho__oferta-textop {
     text-transform: uppercase;
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px 0 #e29910;
+    font-size: 20px;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #e29910;
+}
+
+.cabecalho__oferta-textot {
+    font-size: 22px;
+    text-shadow: 2px 2px 2px #e29910;
+    color: #FFF;
+    font-style: italic;
 }
 
 .cabecalho__oferta-textos {
     text-transform: uppercase;
-    font-size: 20px;
-    color: white;
-}
-
-.cabecalho__oferta-textot {
-    font-style: italic;
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px 0 #e29910;
+    color: #FFF;
 }
 
 .cabecalho__promo {
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 80%;
     transform: translate(-50%);
     
@@ -52,4 +51,14 @@
 
 .cabecalho__promo {
     animation: neon 2s alternate infinite ease;
+}
+
+@media screen and (max-width: 700px) {
+    .cabecalho__oferta {
+        display: none;
+    }
+
+    .cabecalho__promo {
+        left: 50%;
+    }
 }

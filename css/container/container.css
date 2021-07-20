@@ -1,6 +1,4 @@
 .container {
-    width: 100vw;
-    height: 100vh;
     background: linear-gradient(#885D4A, #4B3935);
 }
 
@@ -18,13 +16,17 @@
     max-height: 600px;
 }
 
+.card:hover {
+    border: 2px solid #e29910;
+}
+
 .card__desconto {
     border: 1px solid #000;
     width: 30px;
     background-color: #000;
     color: #e29910;
     position: absolute;
-    top: 250px;
+    top: 320px;
 }
 
 .card__img {
@@ -57,4 +59,22 @@
     color: #e29910;
     padding: 2rem;
     font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        margin: auto;
+    }
+
+    .container__elementos {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 2rem;
+    }
+
+    .card__desconto {
+        display: none;
+    }
 }
